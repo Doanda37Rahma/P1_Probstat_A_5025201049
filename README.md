@@ -322,3 +322,11 @@ varian = sd^2
 print(paste("Varian : ", varian))
 ```
 ![image](https://user-images.githubusercontent.com/66405353/162610530-36ca6a8b-fc59-4321-b167-6b32a2cf1a15.png)
+
+
+# Referensi
+* https://www.cyclismo.org/tutorial/R/
+* https://www.tutorialspoint.com/r
+* https://www.geeksforgeeks.org/
+* https://www.statology.org/
+* Probability & Statistics for Engineers and Scientists 9th Edition, Walpole, Myers Y.E
