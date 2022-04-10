@@ -143,7 +143,7 @@ bp <- barplot(height=data$Freq, names.arg=data$x, xlab="Bayi lahir", ylab="Freku
 text(bp, data$Freq, labels=data$Freq)
 ```
 <br>
-<img width="683" alt="3b" src="https://user-images.githubusercontent.com/66405353/162609263-bf8ec924-809e-460e-bebb-68664449f3e2.png">
+<img width="683" alt="3b" src="https://user-images.githubusercontent.com/66405353/162612319-69d6425d-e9b6-461b-a35f-cbcc5b72b23f.png">
 <br>
 
 ## 3c
