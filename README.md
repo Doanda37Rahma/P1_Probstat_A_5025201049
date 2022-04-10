@@ -71,7 +71,7 @@ varian = (1-p)/p^2
 print(paste("Varian : ", varian))
 ```
 <br>
-![image](https://user-images.githubusercontent.com/66405353/162608647-224bdb4d-1401-4b51-a263-c3d1012ec029.png)
+![1e](https://github.com/Doanda37Rahma/P1_Probstat_A_5025201049/blob/main/img/1e.png?raw=true)
 <br>
 
 
@@ -83,17 +83,18 @@ a. Peluang terdapat 4 pasien yang sembuh.
 dbinom(x=4, size=20, prob=0.2)
 ```
 <br>
-![image](https://user-images.githubusercontent.com/66405353/162608990-f08bbdcf-c249-4fce-8897-9c74e6180f5f.png)
+![2a](https://github.com/Doanda37Rahma/P1_Probstat_A_5025201049/blob/main/img/2a.png?raw=true)
 <br>
 
 ## 2b
 b. Gambarkan grafik histogram berdasarkan kasus tersebut.
 ```r
-# 2b
 x = 0:20
 p <- dbinom(x, size=20, prob=0.2)
 data = data.frame(x=x, p=p)
 barplot(height=data$p, names.arg=data$x, xlab="# Pasien sembuh", ylab="Peluang")
+bp <- barplot(height=data$p, names.arg=data$x, xlab="# Pasien sembuh", ylab="Peluang")
+text(bp, data$p, labels=round(data$p, 2))
 ```
 <br>
 <img width="683" alt="2b" src="https://user-images.githubusercontent.com/66405353/162609021-1a0c0866-04a8-4939-8f9f-7c5d76452d2c.png">
@@ -111,9 +112,9 @@ varian = n*p*q
 print(paste("Varian : ", varian))
 ```
 <br>
-![image](https://user-images.githubusercontent.com/66405353/162609052-40e7cf36-904d-4133-a4e8-0ca4d32ba93b.png)
+![2c1](https://github.com/Doanda37Rahma/P1_Probstat_A_5025201049/blob/main/img/2c1.png?raw=true)
 <br>
-![image](https://user-images.githubusercontent.com/66405353/162609079-d38191ad-4a42-48b0-b54f-4da019583833.png)
+![2c2](https://github.com/Doanda37Rahma/P1_Probstat_A_5025201049/blob/main/img/2c2.png?raw=true)
 <br>
 
 
@@ -152,7 +153,7 @@ c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 mean(x == 6)
 ```
 <br>
-![image](https://user-images.githubusercontent.com/66405353/162609313-28842fc3-9c91-4a3b-89bf-2e2c339cdb3e.png)
+![3c](https://github.com/Doanda37Rahma/P1_Probstat_A_5025201049/blob/main/img/3c.png?raw=true)
 <br>
 Hasil pada poin a adalah eksak/tetap (p = 0.1281201), sedangkan pada poin b dapat 
 dilihat di histogram, dari simulasi random generation 365 hari (seed = 1), 
